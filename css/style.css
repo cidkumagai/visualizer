@@ -1,8 +1,99 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 #myCanvas {
   margin: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../images/back1.jpg");
-  background-repeat: repeat;
+  position: relative;
+  z-index: 1;
 }
-/*# sourceMappingURL=style.css.map */
+
+#chart {
+  position: fixed;
+  right: 3%;
+  bottom: 1%;
+  z-index: 2;
+}
+
+body {
+  background-color: #5fa16a;
+}
+
+.outline {
+  padding: 0.2em 0.5em;
+  margin: 2em auto;
+  color: #565656;
+  background: #ffeaea;
+  box-shadow: 0px 0px 0px 10px #ffeaea;
+  border: dashed 2px #ffc3c3;
+  border-radius: 8px;
+  max-width: 90%;
+}
+
+.form {
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+}
+.form_title {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.form_text {
+  width: 95%;
+  height: 30px;
+}
+.form_submit {
+  border-radius: 15px;
+  margin-top: 10px;
+  width: 80px;
+  height: 30px;
+  font-weight: 400;
+}
+.form_submit:hover {
+  background-color: #5fa16a;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

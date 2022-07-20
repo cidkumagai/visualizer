@@ -1,7 +1,3 @@
-#myCanvas {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../images/back1.jpg");
-    background-repeat: repeat;
-}
+@import "_reset.scss";
+@import "_index.scss";
+@import "_thought.scss";
